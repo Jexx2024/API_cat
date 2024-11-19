@@ -4,7 +4,8 @@ import requests
 from io import BytesIO
 
 def load_image(url):
-  pass
+    response = requests.get(url)
+
 
 window=Tk()
 window.geometry("500x500")
